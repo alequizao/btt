@@ -1,14 +1,6 @@
 #!/bin/env python
 # -*- coding: utf-8 -*-
 
-#netin baitola
-from os import execl; from sys import executable; from os import system;from sys import argv
-try: from requests import get;from TerminalButtons import *
-except: system('python3 -m pip install --upgrade pip && pip3 install tweepy TerminalButtons');execl(executable, executable, *argv)
-try: exec('tevinobuzao.py')
-except: print('Verifique sua conexão com a internet!')
-
-
 while True:
     import tweepy, time, os
     import socket
